@@ -1,0 +1,15 @@
+TEST_DATA_PATH: 'Paste the path of test file here'
+TRAIN_DATA_PATH: '../Saarthi/train_data.csv'
+VALIDATION_DATA_PATH: '../Saarthi/valid_data.csv'
+MODIFIED_SAVE_AT:
+  TRAIN: '../Saarthi/modified_train.csv'
+  VALID: '../Saarthi/modified_valid.csv'
+  TEST: '../Saarthi/modified_test.csv'
+NUM_TRAIN_EPOCHS: 1
+OVERWRITE_OUTPUT_DIR: True
+TRAIN_BATCH_SIZE: 32
+EVAL_BATCH_SIZE: 32
+
+MODEL: NERModel('bert', 'bert-base-cased',labels=label,args =args)
+OUTPUT_DIR: '../Saarthi/'
+MODEL_SAVE_AT: '../Saarthi/model.pkl'
