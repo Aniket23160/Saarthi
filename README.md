@@ -14,5 +14,7 @@ Step 7. Then run "python test.py --config path_of_config". <br />
 
 Find the log files with name 'events.out.tfevents.1701870849.Server3.21908.0' <br /> 
 The given image shows the tensorboard screenshot of training log  <br /> 
+Find the report containing documentation of research with name 'Short Report'
+<br>
 <img width="1470" alt="Screenshot 2023-12-06 at 10 28 30 PM" src="https://github.com/Aniket23160/Saarthi/assets/43294505/23f14608-7249-4fe3-b402-ac94c1216b8a">
 
